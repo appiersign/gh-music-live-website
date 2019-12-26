@@ -1,8 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell&display=swap");
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 body {
-    background-color: #fefefe;
+  background-color: #fefefe;
+  font-family: "Cantarell", sans-serif;
 }
 
 header {
-    background-color: #EFEFEF;
-    height: 20vh;
+  background-color: #efefef;
+  height: 20vh;
+}
+
+main {
+  height: 60vh;
+}
+
+.height-25-vh {
+  height: 25vh;
+}
+
+#navbar-container {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+#navbarNav ul li a {
+  color: white;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.pr-0 {
+    padding-right: 0% !important;
+}
+
+.pb-0 {
+    padding-bottom: 0% !important;
+}
+
+.no-border-radius {
+    border-radius: 0% !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.gml-card-title {
+    background-color: #EE4E17;
+    padding: 10px;
+    min-width: 100px;
+    margin-top: 50%;
+}
+
+.gml-card-title-container {
+    padding-top: 150px;
+}
+
+.gml-card-description {
+    font-weight: 800;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 4px #1a1a1a;
 }
