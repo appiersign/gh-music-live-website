@@ -1,3 +1,8 @@
 body {
     background-color: #fefefe;
 }
+
+header {
+    background-color: #EFEFEF;
+    height: 20vh;
+}
